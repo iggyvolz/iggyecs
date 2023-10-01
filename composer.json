@@ -1,0 +1,23 @@
+{
+  "name": "iggyvolz/iggyecs",
+  "description": "A simple entity-component-system implementation for PHP",
+  "require": {
+    "php": "^8.2",
+    "iggyvolz/simple-attribute-reflection": "^1",
+    "cuyz/valinor": "^1"
+  },
+  "require-dev": {
+    "revolt/event-loop": "^1"
+  },
+  "autoload": {
+    "psr-4": {
+      "iggyvolz\\iggyecs\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "iggyvolz\\iggyecs\\sample\\": "sample/"
+    }
+  },
+  "license": "0BSD"
+}
